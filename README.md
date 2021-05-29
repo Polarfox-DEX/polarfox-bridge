@@ -130,7 +130,7 @@ See [metrics.md](/docs/metrics.md).
 
 # Chain Implementations
 
-- Ethereum (Solidity): [chainbridge-solidity](https://github.com/ChainSafe/chainbridge-solidity) 
+- Ethereum (Solidity): [chainbridge-solidity](https://github.com/Polarfox-DEX/polarfox-bridge-solidity) 
 
     The Solidity contracts required for chainbridge. Includes deployment and interaction CLI.
     
@@ -157,7 +157,7 @@ A docker-compose file is provided to run two Geth nodes and a chainbridge-substr
 $ docker-compose -f ./docker-compose-e2e.yml up
 ```
 
-See [chainbridge-solidity](https://github.com/chainsafe/chainbridge-solidity) and [chainbridge-substrate-chain](https://github.com/ChainSafe/chainbridge-substrate-chain) for more information on testing facilities.
+See [chainbridge-solidity](https://github.com/Polarfox-DEX/polarfox-bridge-solidity) and [chainbridge-substrate-chain](https://github.com/ChainSafe/chainbridge-substrate-chain) for more information on testing facilities.
 
 All Go tests can be run with:
 ```
