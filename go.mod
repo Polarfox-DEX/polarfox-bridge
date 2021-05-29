@@ -1,4 +1,4 @@
-module github.com/ChainSafe/ChainBridge
+module github.com/Polarfox-DEX/polarfox-bridge
 
 go 1.15
 

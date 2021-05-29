@@ -3,7 +3,7 @@
 /*
 Provides the command-line interface for the chainbridge application.
 
-For configuration and CLI commands see the README: https://github.com/ChainSafe/ChainBridge.
+For configuration and CLI commands see the README: https://github.com/Polarfox-DEX/polarfox-bridge.
 */
 package main
 
