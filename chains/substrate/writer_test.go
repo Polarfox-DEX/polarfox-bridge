@@ -10,8 +10,8 @@ import (
 
 	"github.com/centrifuge/go-substrate-rpc-client/types"
 
-	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
-	subtest "github.com/ChainSafe/ChainBridge/shared/substrate/testing"
+	utils "github.com/Polarfox-DEX/polarfox-bridge/shared/substrate"
+	subtest "github.com/Polarfox-DEX/polarfox-bridge/shared/substrate/testing"
 	message "github.com/ChainSafe/chainbridge-utils/msg"
 )
 

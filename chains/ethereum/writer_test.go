@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ChainSafe/ChainBridge/bindings/Bridge"
-	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
-	ethtest "github.com/ChainSafe/ChainBridge/shared/ethereum/testing"
+	"github.com/Polarfox-DEX/polarfox-bridge/bindings/Bridge"
+	utils "github.com/Polarfox-DEX/polarfox-bridge/shared/ethereum"
+	ethtest "github.com/Polarfox-DEX/polarfox-bridge/shared/ethereum/testing"
 	"github.com/ChainSafe/chainbridge-utils/msg"
 	"github.com/ChainSafe/log15"
 	eth "github.com/ethereum/go-ethereum"

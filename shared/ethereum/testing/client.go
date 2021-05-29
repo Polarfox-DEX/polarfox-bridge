@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"testing"
 
-	utils "github.com/ChainSafe/ChainBridge/shared/ethereum"
+	utils "github.com/Polarfox-DEX/polarfox-bridge/shared/ethereum"
 	"github.com/ChainSafe/chainbridge-utils/crypto/secp256k1"
 )
 

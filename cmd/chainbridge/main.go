@@ -15,9 +15,9 @@ import (
 
 	"strconv"
 
-	"github.com/ChainSafe/ChainBridge/chains/ethereum"
-	"github.com/ChainSafe/ChainBridge/chains/substrate"
-	"github.com/ChainSafe/ChainBridge/config"
+	"github.com/Polarfox-DEX/polarfox-bridge/chains/ethereum"
+	"github.com/Polarfox-DEX/polarfox-bridge/chains/substrate"
+	"github.com/Polarfox-DEX/polarfox-bridge/config"
 	"github.com/ChainSafe/chainbridge-utils/core"
 	"github.com/ChainSafe/chainbridge-utils/metrics/health"
 	metrics "github.com/ChainSafe/chainbridge-utils/metrics/types"

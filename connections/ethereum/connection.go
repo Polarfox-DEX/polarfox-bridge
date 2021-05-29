@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ChainSafe/ChainBridge/connections/ethereum/egs"
+	"github.com/Polarfox-DEX/polarfox-bridge/connections/ethereum/egs"
 	"github.com/ChainSafe/chainbridge-utils/crypto/secp256k1"
 	"github.com/ChainSafe/log15"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"

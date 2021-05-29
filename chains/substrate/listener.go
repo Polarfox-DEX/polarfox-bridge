@@ -9,8 +9,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ChainSafe/ChainBridge/chains"
-	utils "github.com/ChainSafe/ChainBridge/shared/substrate"
+	"github.com/Polarfox-DEX/polarfox-bridge/chains"
+	utils "github.com/Polarfox-DEX/polarfox-bridge/shared/substrate"
 	"github.com/ChainSafe/chainbridge-utils/blockstore"
 	metrics "github.com/ChainSafe/chainbridge-utils/metrics/types"
 	"github.com/ChainSafe/chainbridge-utils/msg"

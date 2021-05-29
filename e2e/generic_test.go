@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"testing"
 
-	eth "github.com/ChainSafe/ChainBridge/e2e/ethereum"
-	sub "github.com/ChainSafe/ChainBridge/e2e/substrate"
-	ethtest "github.com/ChainSafe/ChainBridge/shared/ethereum/testing"
-	subtest "github.com/ChainSafe/ChainBridge/shared/substrate/testing"
+	eth "github.com/Polarfox-DEX/polarfox-bridge/e2e/ethereum"
+	sub "github.com/Polarfox-DEX/polarfox-bridge/e2e/substrate"
+	ethtest "github.com/Polarfox-DEX/polarfox-bridge/shared/ethereum/testing"
+	subtest "github.com/Polarfox-DEX/polarfox-bridge/shared/substrate/testing"
 	log "github.com/ChainSafe/log15"
 )
 

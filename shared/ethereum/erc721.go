@@ -6,8 +6,8 @@ package utils
 import (
 	"math/big"
 
-	"github.com/ChainSafe/ChainBridge/bindings/ERC721Handler"
-	"github.com/ChainSafe/ChainBridge/bindings/ERC721MinterBurnerPauser"
+	"github.com/Polarfox-DEX/polarfox-bridge/bindings/ERC721Handler"
+	"github.com/Polarfox-DEX/polarfox-bridge/bindings/ERC721MinterBurnerPauser"
 	"github.com/ethereum/go-ethereum/common"
 )
 
