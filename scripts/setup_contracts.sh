@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: LGPL-3.0-only
 
 CONTRACTS_REPO="https://github.com/Polarfox-DEX/polarfox-bridge-deploy"
-CONTRACTS_TAG="v1.0.0"
+CONTRACTS_TAG="master"
 CONTRACTS_DIR="./solidity"
 DEST_DIR="./bindings"
 
