@@ -10,23 +10,23 @@ import (
 	"math/big"
 	"time"
 
+	"github.com/ChainSafe/chainbridge-utils/blockstore"
+	metrics "github.com/ChainSafe/chainbridge-utils/metrics/types"
+	"github.com/ChainSafe/chainbridge-utils/msg"
+	"github.com/ChainSafe/log15"
 	"github.com/Polarfox-DEX/polarfox-bridge/bindings/Bridge"
 	"github.com/Polarfox-DEX/polarfox-bridge/bindings/ERC20Handler"
 	"github.com/Polarfox-DEX/polarfox-bridge/bindings/ERC721Handler"
 	"github.com/Polarfox-DEX/polarfox-bridge/bindings/GenericHandler"
 	"github.com/Polarfox-DEX/polarfox-bridge/chains"
 	utils "github.com/Polarfox-DEX/polarfox-bridge/shared/ethereum"
-	"github.com/ChainSafe/chainbridge-utils/blockstore"
-	metrics "github.com/ChainSafe/chainbridge-utils/metrics/types"
-	"github.com/ChainSafe/chainbridge-utils/msg"
-	"github.com/ChainSafe/log15"
 	eth "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 )
 
-var BlockRetryInterval = time.Second * 20
-var BlockRetryLimit = 5
+var BlockRetryInterval = time.Second * 10
+var BlockRetryLimit = 6 * 10 // 10 minutes // TODO Make it parameterized
 var ErrFatalPolling = errors.New("listener block polling failed")
 
 type listener struct {
